@@ -65,6 +65,9 @@ body {
   color: #fff;
   cursor: pointer;
 }
+#newtask button:hover {
+  background-color: #37f7b1;
+}
 
 /*tasks */
 
