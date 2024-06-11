@@ -60,13 +60,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 16px;
-  background-color: #37f7b1;
+  background-color: #04aa6d;
   border: none;
   color: #fff;
   cursor: pointer;
 }
 #newtask button:hover {
-  background-color: #37f7b1;
+  background-color: #04aa6dd2;
 }
 
 /*tasks */
@@ -79,4 +79,31 @@ body {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   width: 100%;
   position: relative;
+}
+.task {
+  background-color: #fff;
+  height: 50px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
+}
+.task span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.task button {
+  background-color: #04aa6d;
+  color: #fff;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
