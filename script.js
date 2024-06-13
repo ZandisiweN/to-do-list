@@ -3,6 +3,7 @@ document.querySelector('#button').onclick = function () {
   if (document.querySelector('#text-input').value.length == 0) {
     alert('Please enter a task...')
   } else {
+    // Add a task
     document.querySelector('#tasks').innerHTML
       = `
      <div class = "task">
@@ -21,6 +22,13 @@ document.querySelector('#button').onclick = function () {
         this.parentNode.remove()
       }
 
+    }
+  }
+  // Cross off completed tasks
+  let tasks = document.querySelectorAll('.task');
+  for (let i = 0; i < tasks.length; i++) {
+    tasks[i].onclick = function () {
+      this.classList.toggle('completed')
     }
   }
 
