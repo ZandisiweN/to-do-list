@@ -48,7 +48,7 @@ body {
 }
 #newtask input:focus {
   outline: none;
-  border-color: #37f7b1;
+  border-color: #04aa6d;
 }
 
 #newtask button {
